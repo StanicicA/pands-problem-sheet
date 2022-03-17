@@ -5,11 +5,22 @@
 # Author: Andrea Stanicic
 
 number = int(input('Please enter a positive integer:'))
+print (number)
+i = number // 2
+print (i)
+if i==5: 
+     print (i*3+1)
+
+
+
+
+#print (i)
 #while (number % 2)!=1:
       #print (number)
-for i in range (1,11):
-     if (i%2==0):
-          print (i)
+#for i in range (1,11):
+    
+     #if (i>=1):
+          #print (i)
      #if number != 3:
          #break
      #elif number % 3 + 1:
