@@ -5,49 +5,11 @@
 # Author: Andrea Stanicic
 
 number = int(input('Please enter a positive integer:'))
-while number == 2:
-     print (number)
-     number >= 2
-     if number == 2:
-         break
-     elif number % 3 + 1:
-          print (number)
-#for x in range (0,11) :
-     #if x % 2 == 0:
-          #print (x)
-
-
-
-#while number % 2:
+#while (number % 2)!=1:
       #print (number)
-      #number % 2 and
-
-#for x in range(0,100,3):
-    #print(x)
-#for  n in range(0,100,3):
-    #if n % 2 == 0:
-       # print(n)
-#for numb in range >0
-
-#if (number % 2):
-     #print ("{}".format(number))
-#elif (number % 3):
-     #print("{} is an odd number".format(number))
-
-
-
-
-#integer = int(input('Please enter a positive integer:'))
-#a = integer // 2
-#if a in
-#  integer = [::2]
-#if true
-#if integer % 2:
-     #print [a%2]
-
-#else  (a / 3 += 1
-
-#b = (integer  * 3) + 1 
-
-#while a >=
-#quit ()
+for i in range (1,11):
+     if (i%2==0):
+          print (i)
+     #if number != 3:
+         #break
+     #elif number % 3 + 1:
