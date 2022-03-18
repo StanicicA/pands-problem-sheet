@@ -2,25 +2,16 @@
 #and outputs the successive values of the following calculation
 #the next value by taking the current value and, 
 #if it is even, divide it by two, but if it is odd, multiply it by three and add one
+#Resource: https://codereview.stackexchange.com/questions/245607/check-if-number-is-divisible-by-three-and-two
 # Author: Andrea Stanicic
 
-number = int(input('Please enter a positive integer:'))
-print (number)
-i = number // 2
-print (i)
-if i==5: 
-     print (i*3+1)
+n = int(input('Please enter a positive integer:'))
+print (n)
 
-
-
-
-#print (i)
-#while (number % 2)!=1:
-      #print (number)
-#for i in range (1,11):
+if (n % 2 == 0):
+     print (n // 2)
+elif (n % 3 == 0):
+      print(n * 3 + 1)
+      n = n-1
     
-     #if (i>=1):
-          #print (i)
-     #if number != 3:
-         #break
-     #elif number % 3 + 1:
+     

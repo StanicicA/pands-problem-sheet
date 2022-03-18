@@ -1,0 +1,5 @@
+numberTo = 10
+numberfrom = 1
+while numberfrom <= numberTo:
+print (evenNum)
+numberFrom += 1
