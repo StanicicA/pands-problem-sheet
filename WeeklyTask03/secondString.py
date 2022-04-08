@@ -4,4 +4,7 @@
 #Author: Andrea Stanicic
 
 sentence = input("Please enter a sentence:")
+
+#printing every second letter in reverse order
+
 print(sentence[::-2])
