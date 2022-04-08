@@ -16,7 +16,7 @@ print (input)
 #Function to return the square root of a number using Newtons method 
  double squareRoot(double n, float l)
 {
-    // Assuming the sqrt of n as n only
+    # Assuming the sqrt of n as n only
     double x = n;
  
     // The closed guess will be stored in the root
