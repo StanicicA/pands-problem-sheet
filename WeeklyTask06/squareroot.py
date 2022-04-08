@@ -13,42 +13,40 @@
 input = float (input("Please enter a positive number:"))
 print (input)
 
-#Function to return the square root of a number using Newtons method 
- double squareRoot(double n, float l)
-{
-    # Assuming the sqrt of n as n only
-    double x = n;
- 
-    // The closed guess will be stored in the root
-    double root;
- 
-    // To count the number of iterations
-    int count = 0;
- 
-    while (1) {
-        count++;
- 
-        // Calculate more closed x
-        root = 0.5 * (x + (n / x));
- 
-        // Check for closeness
-        if (abs(root - x) < l)
-            break;
- 
-        // Update root
-        x = root;
-    }
- 
-    return root;
-}
- 
-// Driver code
-int main()
-{
-    double n = 327;
-    float l = 0.00001;
- 
-    cout << squareRoot(n, l);
- 
-    return 0;
-}
+# Python3 implementation of the approach
+
+# Function to return the square root of
+# a number using Newtons method
+def squareRoot(n, l) :
+
+	# Assuming the sqrt of n as n only
+	x = n
+
+	# To count the number of iterations
+	count = 0
+
+	while (1) :
+		count += 1
+
+		# Calculate more closed x
+		root = 0.5 * (x + (n / x))
+
+		# Check for closeness
+		if (abs(root - x) < l) :
+			break
+
+		# Update root
+		x = root
+
+	return root
+
+# Driver code
+if __name__ == "__main__" :
+
+	n = 14.5
+	l = 0.00001
+print('The square root of {} is approx.{}'.format(input, squareRoot(n,l)))
+
+
+
+
