@@ -8,12 +8,12 @@
 number=int(input('Please enter a positive integer:'))
 
 def collatz(number):
-
+#using a loop to check if the number is divisible by 2
     while number !=1:
         if number% 2 == 0:
             number= number//2
             print(number)
-
+#if it is not divible by 2, then multiplying the no by 3 plus 1
         else:
            number=  3 * number + 1
            print(number)    
