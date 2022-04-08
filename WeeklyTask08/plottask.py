@@ -9,7 +9,7 @@ import numpy as np
 xpoints = np.array([0,4])
 ypoints = np.array([0,4])
 zpoints = np.array([0,4])
-
+#details on the plot
 plt.plot(xpoints, ypoints, zpoints, marker = 'o', ms = 20, color="green")
 plt.legend()
 plt.show()
